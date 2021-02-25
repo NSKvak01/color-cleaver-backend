@@ -1,12 +1,14 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
+function isValidPrimary(color) {
+  return (color === 'red' || color === 'yellow' || color === 'blue');
+}
 
 
 
 // Our setup code here. Don't touch!
-if(typeof isValidPrimary === 'undefined') {
+if (typeof isValidPrimary === 'undefined') {
   isValidPrimary = undefined;
 }
 
